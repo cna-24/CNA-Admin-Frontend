@@ -19,11 +19,7 @@
         <Users v-if="loggedIn" />
       </div>
     </div>
-    <!-- Visar products när man är inloggad -->
-    <Products/>
 
-<!-- Visar users när man är inloggad -->
-    <Users/>
   </div>
 </template>
 
@@ -50,7 +46,7 @@ export default {
     };
   },
   methods: {
-    
+
 
     // Hantera inloggning
     async handleLogin(credentials) {
